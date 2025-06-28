@@ -7,6 +7,17 @@
 # Online:
 # https://www.omnicalculator.com/statistics/mcnemars-test
 
+# ParsBert
+#               precision    recall  f1-score   support
+#
+#            0     0.9578    0.9578    0.9578       332
+#            1     0.8704    0.8704    0.8704       108
+#
+#     accuracy                         0.9364       440
+#    macro avg     0.9141    0.9141    0.9141       440
+# weighted avg     0.9364    0.9364    0.9364       440
+#
+
 sinabert_pred = {}
 parsbert_pred = {}
 
@@ -35,6 +46,10 @@ for mid, sina in sinabert_pred.items():
         else:
             c += 1
 
+print(a, b, c, d)
+
 x = (b - c) * (b - c) / (b + c)
 
 print(x)
+# X = 17
+# p-value = 0.00003737982
