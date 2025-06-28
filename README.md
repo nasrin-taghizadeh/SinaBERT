@@ -21,7 +21,7 @@ This repository contains datasets of several tasks in area of Persian medical do
 - Medical Question Retrieval
 
 # References
-Please cite following article if using SINA-BERT, or data in this repository.
+Please cite following article if using SINA-BERT, codes, or data in this repository.
 
 ```bibtex
 @article{taghizadeh2021sina,
