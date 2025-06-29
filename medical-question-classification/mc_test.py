@@ -47,7 +47,7 @@ for mid, sina in sinabert_pred.items():
             c += 1
 
 print(a, b, c, d)
-
+# a= 0, b=0, c=17, d=423
 x = (b - c) * (b - c) / (b + c)
 
 print(x)
